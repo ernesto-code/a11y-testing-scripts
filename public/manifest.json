@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "a11y-testing-shortcuts-extension",
+  "version": "2.0.0",
+  "description": "a11y-testing-shortcuts-extension",
+  "action": {
+    "default_title": "a11y-testing-shortcuts-extension",
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "a11y-shortcuts-icon-16.png",
+    "32": "a11y-shortcuts-icon-32.png",
+    "48": "a11y-shortcuts-icon-48.png"
+  }
+}

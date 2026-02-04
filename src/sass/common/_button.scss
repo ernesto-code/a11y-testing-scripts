@@ -1,0 +1,41 @@
+button {
+  display: flex;
+  gap: .3rem;
+  // width: max-content;
+  // height: max-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ffffff;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  color: inherit;
+  background-color: #dcdcdc;
+  cursor: pointer;
+  transition: border 0.25s, outline 0.25s;
+
+  &:hover,
+  &:focus {
+    border: 2px solid #292929;
+  }
+
+  // &:focus,
+  // &:active,
+  // &:focus-visible {
+  // outline: 1px solid #fff;
+  // background-color: #fff;
+  // }
+
+  &.buttons__icons {
+    font-size: 1.25rem;
+  }
+
+  &.disabled {
+    color: #8D8D8D; 
+    // background-color: #f0f0f0; 
+    // border: 1px solid #d0d0d0; 
+    pointer-events: none; 
+    opacity: 0.5; 
+  }
+}

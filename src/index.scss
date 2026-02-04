@@ -1,0 +1,25 @@
+// :root {
+//   line-height: 1.5;
+//   font-weight: 300;
+//   color-scheme: light dark;
+//   color: #292929;
+//   background-color: #ffffff;
+//   border-radius: 10px;
+//   font-synthesis: none;
+//   text-rendering: optimizeLegibility;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   -webkit-text-size-adjust: 100%;
+// }
+
+// #root {
+  // text-align: center;
+// }
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+}
